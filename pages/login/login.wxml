@@ -8,16 +8,17 @@
         <!--账号-->
           <view class="inputView"> 
             <image class="nameImage" src="../../images/loginimg/Accoun@2x.png"></image> 
-            <label class="loginLab">账号</label> 
-            <input class="inputText" placeholder="请输入账号" bindinput="phoneInput" /> 
+            <!-- <label class="loginLab">账号</label>  -->
+            <input placeholder-style="color: white; font:bold; text-align: left;" class="inputText" placeholder="手机号码" bindinput="phoneInput" /> 
           </view> 
-          <view class="line"></view> 
+
             
           <!--密码-->
           <view class="inputView"> 
             <image class="keyImage" src="../../images/loginimg/Password@2x.png"></image> 
-            <label class="loginLab">密码</label> 
-            <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+            <!-- <label class="loginLab">密码</label>  -->
+            <input class="inputText" placeholder-style="color: white; font:bold;text-align: left;" password="true" placeholder="密码" bindinput="passwordInput" /> 
+            
           </view> 
             
           <!--按钮-->
