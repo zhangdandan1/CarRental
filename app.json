@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+
+        "pages/borrow/borrow",
+        "pages/order/order",
+        "pages/me/me",
+        "pages/user/user"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#357afc"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "color": "#357afc",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "车辆管理",
+                "iconPath": "/images/indeximg/car@2x.png",
+                "selectedIconPath": "/images/indeximg/car@2x.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "车辆管理",
+                "iconPath": "/images/indeximg/car@2x.png",
+                "selectedIconPath": "/images/indeximg/car@2x.png"
+            }
+        ]
+    }
+}
