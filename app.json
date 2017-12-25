@@ -2,7 +2,6 @@
     "pages": [
         "pages/login/login",
         "pages/index/index",
-
         "pages/borrow/borrow",
         "pages/order/order",
         "pages/me/me",
@@ -21,9 +20,21 @@
                 "selectedIconPath": "/images/indeximg/car@2x.png"
             },
             {
-                "pagePath": "pages/index/index",
-                "text": "车辆管理",
-                "iconPath": "/images/indeximg/car@2x.png",
+                "pagePath": "pages/borrow/borrow",
+                "text": "借车申请",
+                "iconPath": "/images/indeximg/jieche@2x.png",
+                "selectedIconPath": "/images/indeximg/jieche@2x.png"
+            },
+            {
+                "pagePath": "pages/order/order",
+                "text": "订单",
+                "iconPath": "/images/indeximg/dingdan@2x.png",
+                "selectedIconPath": "/images/indeximg/dingdan@2x.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "个人中心",
+                "iconPath": "/images/indeximg/me@2x.png",
                 "selectedIconPath": "/images/indeximg/car@2x.png"
             }
         ]
