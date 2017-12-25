@@ -8,8 +8,6 @@ page{
  flex-direction: column; 
  padding: 0; 
  box-sizing: border-box; 
- background-image: url('../../images/loginimg/bg@2x.png'); 
- background-size:100% 90px;
  positon:relative;
   /* background-color: #f2f2f2  */
 } 
@@ -67,7 +65,7 @@ opacity:0.5;
 .loginBtnView { 
  width: 100%; 
  height: auto; 
- background-color: #f2f2f2; 
+ /* background-color: #f2f2f2;  */
  margin-top: 0px; 
  margin-bottom: 0px; 
  padding-bottom: 0px; 
@@ -75,7 +73,19 @@ opacity:0.5;
   
 .loginBtn { 
  width: 100%; 
+ height: 60px !important;
  margin-top: 35px; 
- border:1px solid  #f2f2f2;
- border-redius:5rpx;
+ border-radius:70rpx;
+ position: absolute;
+ z-index: 1
+ 
 }
+
+.loginBtnLab {
+color:white;
+position: absolute;
+z-index: 2;
+margin-bottom: 20rpx;
+margin-left:43%;
+margin-top:19%;
+} 

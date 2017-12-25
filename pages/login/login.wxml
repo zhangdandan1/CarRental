@@ -7,7 +7,7 @@
       
         <!--账号-->
           <view class="inputView"> 
-            <image class="nameImage" src="../../images/loginimg/Accoun@2x"></image> 
+            <image class="nameImage" src="../../images/loginimg/Accoun@2x.png"></image> 
             <label class="loginLab">账号</label> 
             <input class="inputText" placeholder="请输入账号" bindinput="phoneInput" /> 
           </view> 
@@ -15,15 +15,19 @@
             
           <!--密码-->
           <view class="inputView"> 
-            <image class="keyImage" src="../../images/loginimg/Password@2x"></image> 
+            <image class="keyImage" src="../../images/loginimg/Password@2x.png"></image> 
             <label class="loginLab">密码</label> 
             <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
           </view> 
             
           <!--按钮-->
-          <view class="loginBtnView"> 
-            <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
-          </view> 
-        
+          <!-- <view class="loginBtnView"> 
+             <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>  
+          </view>  -->
+          <!-- <image class="loginBtn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login"  src="../../images/loginimg/button@2x.png"  >test</image> -->
+          <view>
+          <image class="loginBtn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login"  src="../../images/loginimg/button@2x.png" mode="{{loginMode}}" >test</image>
+             <label class="loginBtnLab">登 陆</label> 
+          </view>
   </view> 
 </view>
